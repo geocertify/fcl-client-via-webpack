@@ -1,0 +1,21 @@
+{
+  "name": "fcl-via-webpack-for-nodejs",
+  "version": "1.0.0",
+  "description": "Example using webpack to bundle Flow fcl plus node.js builtin dependencies",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@hier01",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "latest"
+  },
+  "dependencies": {
+    "@onflow/fcl": "0.0.73"
+  },
+  "scripts": {
+    "build": "webpack -c",
+    "start": "node webserver.js"
+  }
+}
