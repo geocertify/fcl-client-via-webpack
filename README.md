@@ -14,3 +14,10 @@ FCL is the Flow Client Library used to access the Flow blockchain.  FCL depends 
 This example uses **webpack** (latest) to build an IIFE-formatted bundle that can be loaded by a <script> tag in a simple HTML page (index.html).
 
 The script included in the bundle accesses the Flow test-net and executes a one-line *cadence* script.
+  
+Other Resources:
+  
+  - svelte:  https://github.com/bluesign/fcl-svelte-rollup
+  - vue/nuxt:  https://codesandbox.io/s/menta-8ug6l?file=/plugins/fcl.client.js
+  - react/cra: https://github.com/onflow/kitty-items
+  
