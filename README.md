@@ -11,7 +11,7 @@ Then navigate to localhost:5000 in a browser.
 
 FCL is the Flow Client Library used to access the Flow blockchain.  FCL depends on node.js builtin modules, including *http*, *https*, and *url*, and their dependencies.  All these resources must be bundled and delivered to the client.
 
-This example uses **webpack** (latest) to build an IIFE-formatted bundle that can be loaded by a <script> tag in a simple HTML page (index.html).
+This example uses **webpack** (latest) to build a bundle that can be loaded by a <script> tag in a simple HTML page (index.html).
 
 The script included in the bundle accesses the Flow test-net and executes a one-line *cadence* script.
   
